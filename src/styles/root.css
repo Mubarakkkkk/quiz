@@ -1,0 +1,28 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monteserat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+.wrapper {
+    height: 100vh;
+    color: #FFFFFF;
+    background-color: #020230;
+
+    display: flex;
+}
+
+.userEarned {
+   margin: auto;
+
+    font-size: 2.5rem;
+    font-weight: 600;
+}

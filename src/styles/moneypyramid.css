@@ -1,0 +1,48 @@
+.money_pyramid {
+    width: 25%;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.money_list {
+    list-style: none;
+    width: 100%;
+}
+
+.money_list_item { 
+    font-size: 1.3rem;
+    font-weight: 5000;
+    padding: .5rem 1.5rem;
+    margin: .1rem;
+    border-radius: .3rem;
+  
+}
+
+.money_list_item.active {
+    background-color: teal; 
+}
+
+.money_list_item_number {
+    display: inline-block;
+    width: 3rem;
+}
+
+.money_list_item_price {
+   font-weight: 600;
+}
+
+@media (max-width: 950px) {
+    .money_list_item { 
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}
+
+@media (max-width: 850px) {
+    .money_list_item { 
+        font-size: .8rem;
+    }
+}
